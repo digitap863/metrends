@@ -1,0 +1,1197 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+}
+
+/* 
+Navigation Bar
+Navigation Bar Logo
+Navigation Social Icons
+
+Responsive
+ */
+
+/* Home Banner */
+
+.home-banner {
+  width: 100%;
+  height: 883px;
+  background-image: url("/images/banner/home-banner.webp");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  overflow-x: hidden;
+}
+
+.heading h2 {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding-top: 70px;
+  color: transparent;
+
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.banner-text h3 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-top: -50px;
+}
+
+.tick-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tick-text div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tick-text img {
+  height: 33px;
+  width: 33px;
+}
+
+.tick-text p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+/* Banner Get Started Button Area */
+
+.get-started {
+  width: 100%;
+  height: 84px;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.get-started-btn {
+  width: 358px;
+  height: 84px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.gs-btn {
+  width: 250.08px;
+  height: 62.52px;
+  border: none;
+  border-radius: 50px;
+  background-color: #00a5c9;
+  color: black;
+}
+
+.gs-btn-round {
+  width: 84px;
+  height: 84px;
+  border: none;
+  border-radius: 50px;
+  background-color: #00a5c9;
+  color: black;
+}
+
+/* Banner Cards */
+
+.banner-card {
+  width: 100%;
+  height: 300px;
+  /* background-color: bisque; */
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.banr-crd {
+  width: 300px;
+  height: 300px;
+  /* background-color: #00a5c9; */
+  padding: 0;
+  margin: 0 25px;
+}
+
+.banr-crd img {
+  width: 262px;
+  height: 262px;
+  opacity: 0.97;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banr-crd-txt h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50.3855px;
+  line-height: 76px;
+  color: rgba(0, 165, 201, 1);
+}
+
+.banr-crd-txt p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.1928px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+/* Ribbon */
+
+.ribbon {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ribbon img {
+  width: 200px;
+  height: 38px;
+}
+
+/* Who we are */
+
+.whoweare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/images/corporate/whoweare-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
+
+.whoweare-row {
+  width: 100%;
+  height: 750px;
+}
+.whoweare-col-left {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(104, 104, 119); */
+}
+
+.whoweare-images {
+  height: 90%;
+  width: 90%;
+  position: relative;
+  /* background-color: blue; */
+  margin-bottom: 10px;
+}
+
+.whoweare-images .circles {
+  height: auto;
+  width: auto;
+  position: absolute;
+
+  bottom: 0px;
+  right: 0;
+}
+
+.whoweare-images .shoes {
+  height: auto;
+  width: auto;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+
+.whoweare-text {
+  margin-left: 5%;
+}
+
+.whoweare-line {
+  width: 100px;
+  height: 2px;
+  background-color: #00a5c9;
+}
+
+.whoweare-text h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 83px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.whoweare-text h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+.whoweare-text span {
+  color: rgba(0, 165, 201, 1);
+}
+
+.whoweare-text p {
+  max-width: 573px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.7119px;
+  line-height: 31px;
+  /* or 175% */
+
+  color: #a4b4c3;
+}
+
+.whoweare-text button {
+  width: 316px;
+  height: 71px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #00a5c9;
+  box-shadow: 0px 6.64198px 24.3539px rgba(6, 34, 51, 0.22);
+  border-radius: 78.5967px;
+}
+
+/* Why chose us */
+
+.whychoseus-contents {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  background-image: url("/images/why-chose-us/whychoseus-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.whychoseus-text h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 70px;
+  /* or 536% */
+
+  text-align: center;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.whychoseus-text h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 74px;
+  /* or 124% */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+
+.whychoseus-text span {
+  color: #00a5c9;
+}
+
+.whychoseus-crds {
+  width: 100%;
+  height: auto;
+  /* background-color: #a4b4c3; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  margin-top: 100px;
+}
+
+.whychoseus-crd {
+  width: 308px;
+  height: 355px;
+  background-color: black;
+  background-image: url("/images/corporate/whychoseus-crd-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.why-choseus-crd-content {
+  height: auto;
+  width: 100%;
+}
+
+.why-choseus-crd-content img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.why-choseus-crd-content h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  /* or 127% */
+
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.why-choseus-crd-content p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  /* or 147% */
+
+  color: #a4b4c3;
+}
+
+/* Sales Pitch Starts Here */
+
+/* Chairman Message */
+
+.sales-msg {
+  width: 100%;
+  height: auto;
+  background-color: black;
+
+  background-image: url("/images/sales-pitch/sales-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sales-msg-content {
+  width: auto;
+  /* background-color: #00a5c9; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sales-msg-content-left {
+  width: auto;
+  /* background-color: #ae087f; */
+}
+
+.sales-msg-content-left h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 78px;
+  /* or 427% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+.sales-msg-content-left h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 53.74px;
+  line-height: 81px;
+  /* or 151% */
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-left: 50px;
+}
+
+.sales-msg-content-left span {
+  color: #00a5c9;
+}
+
+.sales-msg-content-left p {
+  max-width: 442.94px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.4164px;
+  line-height: 34px;
+  /* or 175% */
+
+  color: #a4b4c3;
+  margin-left: 50px;
+}
+
+.sales-msg-content-right {
+  width: auto;
+  height: auto;
+}
+
+.sales-msg-content-right img {
+  /* max-width: 689px;
+  height: auto; */
+  margin-left: -20px;
+}
+
+.top-headings {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+}
+
+.top-headings h4 {
+  margin-right: 50px;
+}
+
+.sales-msg-content-left button {
+  width: 255px;
+  height: 71px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #00a5c9;
+  box-shadow: 0px 6.64198px 24.3539px rgba(6, 34, 51, 0.22);
+  border-radius: 78px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+/* Our Showrooms */
+
+.showrooms {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  overflow-x: hidden;
+  background-image: url("/images/our-showrooms/showrooms-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.showrooms-content {
+  width: 100%;
+  height: auto;
+}
+
+/* Our Wholesale Starts */
+
+.showrooms-content-right {
+  height: auto;
+  width: auto;
+  /* background-color: #00a5c9; */
+  display: flex;
+  align-items: center;
+}
+
+.showrooms-content-left {
+  height: auto;
+  width: auto;
+}
+
+.showrooms-text p {
+  max-width: 474px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.7119px;
+  line-height: 31px;
+  /* or 175% */
+
+  color: #a4b4c3;
+}
+
+.showrooms-text {
+  margin-left: 10%;
+  /* margin-top: 5%; */
+  padding-top: 7%;
+  /* background-color: #a4b4c3; */
+}
+
+.showrooms-line {
+  width: 100px;
+  height: 2px;
+  background-color: #00a5c9;
+}
+
+.showrooms-text h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 83px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.showrooms-text h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+.showrooms-text span {
+  color: rgba(0, 165, 201, 1);
+}
+
+.showrooms-text p {
+  max-width: 85%;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.7119px;
+  line-height: 31px;
+  /* or 175% */
+
+  color: #a4b4c3;
+}
+
+.slidenav {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding-left: 50px;
+}
+
+.slidebtns {
+  width: 200px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10%;
+}
+
+.left-arrow {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  background-color: black;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.left-arrow:hover {
+  background-color: rgb(113, 112, 112);
+  opacity: 0.8;
+  border: none;
+}
+
+.slidebtns .right-arrow {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  margin: 5px;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.right-arrow:hover {
+  background-color: rgb(113, 112, 112);
+  opacity: 0.8;
+  border: none;
+}
+
+.showrooms-content-right {
+  width: 100%;
+  height: auto;
+
+  overflow: hidden;
+}
+
+.crds {
+  width: auto;
+  height: 473px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(28px);
+  display: flex;
+  overflow: hidden;
+}
+
+.crd {
+  width: 388px;
+  height: 472px;
+  margin-right: 20px;
+
+  background-image: url("/images/our-showrooms/showroom-crd-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.crd p {
+  position: absolute;
+  left: 30px;
+  bottom: 60px;
+  color: #ffffff;
+}
+
+.crd button {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  height: 35px;
+  width: 128px;
+  border-radius: 39.541690826416016px;
+  background-color: black;
+  border: 1px solid;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* Connect With us */
+
+.connect {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/images/our-showrooms/showrooms-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.connect-crd-with-bg {
+  width: 80%;
+  height: auto;
+
+  background-image: url("/images/corporate/connect-us-crd-bg.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.8;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-crd-with-bg img {
+  margin-bottom: 5%;
+  margin-top: 7%;
+}
+
+.connect-crd-with-bg h2 {
+  margin-bottom: 3%;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+  /* identical to box height, or 112% */
+  color: #ffffff;
+}
+
+.connect-crd-with-bg span {
+  color: #00a5c9;
+}
+
+.connect-crd-with-bg p {
+  margin-bottom: 2%;
+  text-align: center;
+
+  max-width: 872px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+
+.connect-crd-with-bg form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6%;
+}
+
+.connect-crd-with-bg input {
+  margin-bottom: 10%;
+
+  width: 326px;
+  height: 48px;
+  background: #3f4143;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+.connect-crd-with-bg button {
+  width: 250px;
+  height: 62px;
+  background: #00a5c9;
+  backdrop-filter: blur(4.16792px);
+
+  border-radius: 135.457px;
+  margin-bottom: 10%;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1132px) {
+  .navbar ul li a {
+    font-size: 1.6vh;
+  }
+
+  .navbar ul li {
+    padding: 0 20px;
+  }
+
+  .social img {
+    padding: 3px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .social {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 413px) {
+  .hideme {
+    display: none;
+  }
+  .ribbon {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .ribbon img {
+    width: 200px;
+    height: auto;
+    margin: 7px;
+    overflow-x: hidden;
+  }
+
+  /* Who we are */
+
+  .whoweare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/images/corporate/whoweare-bg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+  }
+
+  .whoweare-row {
+    width: 100%;
+    height: auto;
+  }
+  .whoweare-col-left {
+    height: 360px;
+    width: 360px;
+    /* background-color: rgb(104, 104, 119); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .whoweare-images {
+    height: 100%;
+    width: auto;
+    padding-top: 20px;
+    position: relative;
+    /* background-color: blue; */
+    margin: 10px 10px;
+  }
+
+  .whoweare-images .circles {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+
+    top: 10px;
+    right: 0;
+  }
+
+  .whoweare-images .shoes {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+
+  .whoweare-col-right {
+    width: auto;
+    height: auto;
+  }
+
+  .whoweare-text {
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+  }
+
+  .whoweare-line {
+    width: 100px;
+    height: 2px;
+    background-color: #00a5c9;
+  }
+
+  .whoweare-text h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+  }
+
+  .whoweare-text h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 58px;
+    color: #ffffff;
+  }
+
+  .whoweare-text span {
+    color: rgba(0, 165, 201, 1);
+  }
+
+  .whoweare-text p {
+    width: 315px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .whoweare-text button {
+    width: 200px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  /* Why Chose Us */
+  .whychoseus-text h4 {
+    font-size: 1rem;
+  }
+
+  .whychoseus-text h2 {
+    font-size: 2.5rem;
+    line-height: 40px;
+  }
+
+  .whychoseus-crds .crd-hides {
+    display: none;
+  }
+
+  /* sales */
+
+  .sales-msg-content-left h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 44px;
+    /* or 427% */
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .sales-msg-content-left h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    /* or 122% */
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+
+  .sales-msg-content-right img {
+    margin-left: 0;
+  }
+
+  .sales-msg-content-left button {
+    width: 200px;
+    height: 50px;
+  }
+
+  .sales-msg-content-left h4 {
+    font-family: "Poppins";
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .sales-msg-content-left h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+
+    margin-left: 10px;
+  }
+
+  .sales-msg-content-left span {
+    color: #00a5c9;
+  }
+
+  .sales-msg-content-left p {
+    max-width: 90%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+    margin-left: 10px;
+  }
+
+  .sales-msg-content-right {
+    width: auto;
+    height: auto;
+  }
+
+  .sales-msg-content-right img {
+    /* max-width: 689px;
+    height: auto; */
+    margin-left: -10px;
+  }
+
+  .top-headings {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+  }
+
+  .top-headings h4 {
+    margin-right: 50px;
+  }
+
+  .slidebtns .right-arrow {
+    width: 50px;
+    height: 50px;
+  }
+
+  .slidebtns .left-arrow {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Show rooms */
+
+  .showrooms-text {
+    margin-left: 10%;
+    /* margin-top: 5%; */
+    padding-top: 7%;
+    /* background-color: #a4b4c3; */
+  }
+
+  .showrooms-line {
+    width: 100px;
+    height: 2px;
+    background-color: #00a5c9;
+  }
+
+  .showrooms-text h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 83px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .showrooms-text h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+
+  .showrooms-text span {
+    color: rgba(0, 165, 201, 1);
+  }
+
+  .showrooms-text p {
+    max-width: 85%;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 175% */
+
+    color: #a4b4c3;
+  }
+
+  .showrooms-content-right {
+    width: 100%;
+    height: auto;
+
+    overflow-x: hidden;
+  }
+  .crds {
+    width: auto;
+    height: 410px;
+    box-shadow: none;
+    backdrop-filter: blur(0px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .crd {
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+
+    background-image: url("/images/our-showrooms/showroom-crd-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .crd p {
+    position: absolute;
+    left: 30px;
+    bottom: 60px;
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  .crd button {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    height: 33px;
+    width: 100px;
+    border-radius: 39.541690826416016px;
+    background-color: black;
+    border: 1px solid;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+
+  /* Connect With Us */
+
+  .connect-crd-with-bg {
+    background-image: none;
+  }
+
+  .connect-crd-with-bg h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #00a5c9;
+  }
+  .connect-crd-with-bg p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .connect-crd-with-bg input {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 220px;
+    height: 40px;
+    font-size: 12px;
+    background: #3f4143;
+    border-radius: 13.5688px;
+  }
+
+  .connect-crd-with-bg button {
+    width: 130px;
+    height: 30px;
+    font-size: 12px;
+    background: #00a5c9;
+    backdrop-filter: blur(1.43618px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 50px;
+  }
+}
