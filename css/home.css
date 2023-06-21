@@ -68,7 +68,7 @@ Responsive
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 100%;
   padding: 0 20px;
 }
 
@@ -86,7 +86,7 @@ Responsive
 
 .get-started-btn {
   width: 358px;
-  height: 84px;
+  height: 50%;
 
   display: flex;
   flex-direction: row;
@@ -125,16 +125,17 @@ Responsive
 }
 
 .banr-crd {
-  width: 300px;
+  width: 100%;
   height: 300px;
   /* background-color: #00a5c9; */
   padding: 0;
-  margin: 0 25px;
+  margin: 0 20px;
+  overflow-x: hidden;
 }
 
 .banr-crd img {
-  width: 262px;
-  height: 262px;
+  width: 20vw;
+  height: auto;
   opacity: 0.97;
 }
 .centered {
@@ -149,7 +150,7 @@ Responsive
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 50.3855px;
+  font-size: 5vw;
   line-height: 76px;
   color: rgba(0, 165, 201, 1);
 }
@@ -173,11 +174,13 @@ Responsive
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  overflow: hidden;
 }
 
 .ribbon img {
   width: 200px;
   height: 38px;
+  overflow: hidden;
 }
 
 /* Who we are */
@@ -195,7 +198,7 @@ Responsive
 
 .whoweare-row {
   width: 100%;
-  height: 750px;
+  height: 700px;
 }
 .whoweare-col-left {
   height: 100%;
@@ -208,7 +211,7 @@ Responsive
   width: 90%;
   position: relative;
   /* background-color: blue; */
-  margin-bottom: 10px;
+  /* margin-bottom: 30px; */
 }
 
 .whoweare-images .circles {
@@ -229,11 +232,11 @@ Responsive
 }
 
 .whoweare-text {
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .whoweare-line {
-  width: 100px;
+  width: 100%;
   height: 2px;
   background-color: #00a5c9;
 }
@@ -250,12 +253,14 @@ Responsive
 }
 
 .whoweare-text h2 {
+  max-width: 482.65px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 46px;
-  line-height: 58px;
+  font-size: 3.2vw;
+  line-height: 10vh;
   color: #ffffff;
+  overflow-x: hidden;
 }
 
 .whoweare-text span {
@@ -263,25 +268,28 @@ Responsive
 }
 
 .whoweare-text p {
-  max-width: 573px;
+  max-width: 500px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 17.7119px;
-  line-height: 31px;
+  font-size: 120%;
+  line-height: 5vh;
   /* or 175% */
 
   color: #a4b4c3;
+  margin-top: 20px;
 }
 
 .whoweare-text button {
-  width: 316px;
-  height: 71px;
+  width: 60%;
+  height: 100%;
+  padding: 5%;
   background-color: transparent;
   color: #ffffff;
   border: 1px solid #00a5c9;
   box-shadow: 0px 6.64198px 24.3539px rgba(6, 34, 51, 0.22);
   border-radius: 78.5967px;
+  margin-top: 20px;
 }
 
 /* Why chose us */
@@ -336,30 +344,60 @@ Responsive
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 30px;
-  margin-top: 100px;
+  /* padding-bottom: 30px; */
+  margin-top: 8vh;
 }
 
-.whychoseus-crd {
-  width: 308px;
-  height: 355px;
-  background-color: black;
-  background-image: url("../images/corporate/whychoseus-crd-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  display: flex;
-  align-items: center;
-  margin: 10px;
+.whychoseus-card {
+  height: auto;
+  width: auto;
+  /* background-color: rgb(222, 21, 21); */
+  position: relative;
+  margin: 0 8px 0 8px;
 }
+
+.whychoseus-card .iconss {
+  position: absolute;
+  top: 16%;
+  left: 10%;
+  height: 25%;
+  width: 25%;
+}
+
+.whychoseus-card img {
+  width: 100%;
+  height: 150%;
+  opacity: 0.7;
+}
+
+.whychoseus-card h3 {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  color: #ffffff;
+  font-size: 1.6vw;
+}
+
+.whychoseus-card p {
+  position: absolute;
+  top: 68%;
+  left: 10%;
+  color: #ffffff;
+  font-size: 1vw;
+
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
 .why-choseus-crd-content {
   height: auto;
   width: 100%;
+  overflow: hidden;
 }
 
 .why-choseus-crd-content img {
-  width: 80px;
-  height: 80px;
+  width: 40%;
+  height: 40%;
   margin-bottom: 20px;
 }
 
@@ -367,7 +405,7 @@ Responsive
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 120%;
   line-height: 28px;
   /* or 127% */
 
@@ -376,10 +414,11 @@ Responsive
 }
 
 .why-choseus-crd-content p {
+  width: 227px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 80%;
   line-height: 22px;
   /* or 147% */
 
@@ -387,8 +426,6 @@ Responsive
 }
 
 /* Sales Pitch Starts Here */
-
-/* Chairman Message */
 
 .sales-msg {
   width: 100%;
@@ -399,6 +436,7 @@ Responsive
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
 }
 
 .sales-msg-content {
@@ -413,29 +451,34 @@ Responsive
   /* background-color: #ae087f; */
 }
 
+.top-headings {
+  margin-left: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
 .sales-msg-content-left h4 {
+  max-width: 205.09px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 78px;
+  font-size: 1.3vw;
+  line-height: 60px;
   /* or 427% */
 
   text-transform: uppercase;
 
   color: #ffffff;
-  margin-left: 30px;
 }
 
 .sales-msg-content-left h2 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 53.74px;
-  line-height: 81px;
+  font-size: 5vw;
+  line-height: 11vh;
   /* or 151% */
   letter-spacing: -0.01em;
-  text-transform: uppercase;
 
   color: #ffffff;
   margin-left: 50px;
@@ -443,19 +486,21 @@ Responsive
 
 .sales-msg-content-left span {
   color: #00a5c9;
+  text-transform: uppercase;
 }
 
 .sales-msg-content-left p {
-  max-width: 442.94px;
+  max-width: 500px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 19.4164px;
-  line-height: 34px;
+  font-size: 1.5vw;
+  line-height: 5vh;
   /* or 175% */
 
   color: #a4b4c3;
   margin-left: 50px;
+  margin-top: 30px;
 }
 
 .sales-msg-content-right {
@@ -467,12 +512,6 @@ Responsive
   /* max-width: 689px;
   height: auto; */
   margin-left: -20px;
-}
-
-.top-headings {
-  display: flex;
-  flex-direction: row;
-  padding-left: 50px;
 }
 
 .top-headings h4 {
@@ -682,6 +721,7 @@ Responsive
   left: 30px;
   bottom: 60px;
   color: #ffffff;
+  overflow: hidden;
 }
 
 .crd button {
@@ -695,6 +735,7 @@ Responsive
   border: 1px solid;
   border-color: #ffffff;
   color: #ffffff;
+  overflow: hidden;
 }
 
 /* Connect With us */
@@ -716,7 +757,7 @@ Responsive
   width: 80%;
   height: auto;
 
-  background-image: url("../images/corporate/connect-us-crd-bg.webp");
+  background-image: url("../images/connect/connect-crd-bg-1440.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -739,7 +780,7 @@ Responsive
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 3.7vw;
   line-height: 56px;
   /* identical to box height, or 112% */
   color: #ffffff;
@@ -753,7 +794,7 @@ Responsive
   margin-bottom: 2%;
   text-align: center;
 
-  max-width: 872px;
+  max-width: 820px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -815,21 +856,121 @@ Responsive
   }
 }
 
-@media only screen and (max-width: 413px) {
-  .hideme {
+/* Responsive 769 - 1024 screen */
+@media only screen and (max-width: 1024px) {
+  .hideme1024 {
     display: none;
   }
 
-  .home-banner {
-  width: 100%;
-  height: 883px;
-  background-image: url("../images/banner/home-banner-bg-mobile.webp");
-  background-color: black;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  overflow-x: hidden;
+  /* Banner Cards */
+
+  .banner-card {
+    width: 100%;
+    height: 300px;
+    /* background-color: bisque; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 7%;
+  }
+
+  .banr-crd {
+    width: 70%;
+    height: 80%;
+    /* background-color: #00a5c9; */
+    padding: 0;
+    margin: 0 5px;
+    overflow: hidden;
+  }
+
+  .banr-crd img {
+    width: 25vw;
+  }
+
+  /* Who we are */
+
+  .whoweare-text h2 {
+    line-height: 6vh;
+    color: #ffffff;
+    overflow: hidden;
+  }
+
+  .whoweare-text p {
+    line-height: 4vh;
+  }
+
+  .whoweare-images {
+    height: 90%;
+    width: 100%;
+    position: relative;
+    /* background-color: blue; */
+    /* margin-bottom: 30px; */
+  }
+
+  .whoweare-images .circles {
+    position: absolute;
+
+    top: 15%;
+    right: 0;
+  }
+
+  .whoweare-images .shoes {
+    position: absolute;
+
+    top: 15%;
+    right: 0;
+  }
+
+  /* Sales  */
+
+  .sales-msg-content-left h2 {
+    font-size: 4vw;
+    line-height: 6vh;
+    margin-top: 30px;
+
+    overflow: hidden;
+  }
+
+  .sales-msg-content-left h4 {
+    line-height: 2.5vh;
+  }
+
+  .sales-msg-content-left p {
+    font-size: 1.5vw;
+    line-height: 3.5vh;
+    margin-top: 20px;
+  }
+
+  .sales-msg-content-left button {
+    width: 240px;
+    height: 60px;
+    margin-top: 30px;
+  }
+
+  /* Connect With Us  */
+
+  .connect-crd-with-bg {
+    background-image: url("../images/connect/connect-crd-bg-1024.webp");
+  }
+
+  .connect-crd-with-bg p {
+    max-width: 600px;
+    margin-bottom: 3%;
+
+    font-size: 14px;
+    line-height: 140%;
+  }
 }
+
+/* Responsive 481 - 768 screen */
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 480px) {
+  .hideme {
+    display: none;
+  }
   .ribbon {
     width: 100%;
     height: 80px;
@@ -847,9 +988,127 @@ Responsive
     overflow-x: hidden;
   }
 
+  .navi-logo {
+    margin-left: 1.5vh;
+  }
+
+  .heading h2 {
+    font-size: 45px;
+    margin: 0 1px;
+  }
+
+  .banner-text h3 {
+    font-size: 55px;
+    margin-top: -30px;
+  }
+
+  .tick-text p {
+    font-size: 160%;
+  }
+
+  .tick-text .craftsman {
+    display: none;
+  }
+
+  .tick-text .support {
+    display: none;
+  }
+
+  /* Banner Area */
+
+  .home-banner {
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/banner/home-banner-bg-mobile.webp");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+  .banner-text {
+    margin-top: 80px;
+  }
+
+  /* Banner Get Started Button Area */
+
+  .get-started {
+    width: 100%;
+    height: 84px;
+    margin-top: 15px;
+  }
+
+  .get-started-btn {
+    width: 358px;
+    height: 70px;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gs-btn {
+    width: 40%;
+    height: 60%;
+    margin-right: 10px;
+  }
+
+  .gs-btn-round {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Banner Cards */
+
+  .banner-card {
+    width: 100%;
+    height: auto;
+    /* background-color: bisque; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .banr-crd {
+    width: 200px;
+    height: 150px;
+    /* background-color: rgb(105, 72, 21); */
+
+    padding: 0;
+    margin: 0 10px;
+  }
+
+  /* .banr-crd img {
+    width: 80vw;
+    height: 30vh;
+    opacity: 0.97;
+  } */
+
+  .banr-crd-txt h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: rgba(0, 165, 201, 1);
+  }
+
+  .banr-crd-txt p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+
   /* Who we are */
 
   .whoweare {
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -862,90 +1121,77 @@ Responsive
 
   .whoweare-row {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
   .whoweare-col-left {
-    height: 360px;
+    height: 100vw;
     width: 360px;
-    /* background-color: rgb(104, 104, 119); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* background-color: #00a5c9; */
   }
 
   .whoweare-images {
     height: 100%;
-    width: auto;
-    padding-top: 20px;
-    position: relative;
+    width: 100%;
     /* background-color: blue; */
-    margin: 10px 10px;
+    margin: 30px 10px 0px 10px;
   }
 
   .whoweare-images .circles {
-    height: 350px;
-    width: 350px;
+    height: auto;
+    width: auto;
     position: absolute;
 
     top: 10px;
-    right: 0;
+    left: 0;
   }
 
   .whoweare-images .shoes {
-    height: 350px;
-    width: 350px;
+    /* height: 350px;
+    width: 350px; */
     position: absolute;
     top: 10px;
     right: 0;
   }
 
   .whoweare-col-right {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .whoweare-text {
-    width: auto;
+    width: 100%;
     height: auto;
-    margin-left: 5%;
   }
 
   .whoweare-line {
-    width: 100px;
-    height: 2px;
-    background-color: #00a5c9;
+    width: 60px;
+    height: 1px;
+    margin-right: 30px;
   }
 
   .whoweare-text h4 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
     font-size: 10px;
+    margin-left: 0px;
   }
 
   .whoweare-text h2 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 58px;
-    color: #ffffff;
-  }
-
-  .whoweare-text span {
-    color: rgba(0, 165, 201, 1);
+    font-size: 28px;
+    line-height: 40px;
   }
 
   .whoweare-text p {
-    width: 315px;
-    font-weight: 400;
+    max-width: 315px;
     font-size: 11px;
-    line-height: 15px;
+    line-height: 20px;
   }
 
   .whoweare-text button {
     width: 200px;
-    height: 40px;
+    height: 50px;
     font-size: 12px;
   }
 
@@ -961,6 +1207,43 @@ Responsive
 
   .whychoseus-crds .crd-hides {
     display: none;
+  }
+
+  .whychoseus-card .iconss {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    height: 25%;
+    width: 25%;
+  }
+
+  .whychoseus-card img {
+    width: 308px;
+    height: 355px;
+    opacity: 0.7;
+  }
+
+  .whychoseus-card h3 {
+    width: 243.28px;
+    height: 56px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #ffffff;
+    font-size: 6vw;
+  }
+
+  .whychoseus-card p {
+    width: 227px;
+    height: 44px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 22px;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
   }
 
   /* sales */
@@ -995,20 +1278,18 @@ Responsive
   .sales-msg-content-left button {
     width: 200px;
     height: 50px;
+    margin-left: 0;
   }
 
   .sales-msg-content-left h4 {
     font-family: "Poppins";
     font-size: 12px;
     margin-left: 10px;
+    line-height: 30px;
   }
 
   .sales-msg-content-left h2 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
     font-size: 30px;
-
     margin-left: 10px;
   }
 
@@ -1018,9 +1299,7 @@ Responsive
 
   .sales-msg-content-left p {
     max-width: 90%;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 12px;
 
     margin-left: 10px;
@@ -1040,11 +1319,63 @@ Responsive
   .top-headings {
     display: flex;
     flex-direction: row;
-    padding-left: 50px;
+    padding-left: 0px;
+    margin-left: 0;
   }
 
   .top-headings h4 {
     margin-right: 50px;
+  }
+
+  /* Show rooms */
+
+  .showrooms {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .showrooms-content {
+    height: auto;
+    width: 100%;
+  }
+
+  .showrooms-text {
+    margin-left: 10%;
+    /* margin-top: 5%; */
+    padding-top: 0;
+    /* background-color: #a4b4c3; */
+  }
+
+  .showrooms-line {
+    display: none;
+    /* width: 60px;
+    height: 1px;
+    margin-right: 30px; */
+  }
+
+  .showrooms-text h4 {
+    font-size: 11px;
+    line-height: 30px;
+    letter-spacing: 0.09em;
+  }
+
+  .showrooms-text h2 {
+    font-size: 35px;
+  }
+
+  .showrooms-text p {
+    max-width: 85%;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .slidenav {
+    padding: 0;
+    display: flex;
+    justify-content: end;
   }
 
   .slidebtns .right-arrow {
@@ -1057,77 +1388,25 @@ Responsive
     height: 50px;
   }
 
-  /* Show rooms */
-
-  .showrooms-text {
-    margin-left: 10%;
-    /* margin-top: 5%; */
-    padding-top: 7%;
-    /* background-color: #a4b4c3; */
-  }
-
-  .showrooms-line {
-    width: 100px;
-    height: 2px;
-    background-color: #00a5c9;
-  }
-
-  .showrooms-text h4 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 83px;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    color: #ffffff;
-  }
-
-  .showrooms-text h2 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 40px;
-    color: #ffffff;
-  }
-
-  .showrooms-text span {
-    color: rgba(0, 165, 201, 1);
-  }
-
-  .showrooms-text p {
-    max-width: 85%;
-
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 25px;
-    /* or 175% */
-
-    color: #a4b4c3;
-  }
-
   .showrooms-content-right {
     width: 100%;
     height: auto;
 
     overflow-x: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .crds {
     width: auto;
-    height: 410px;
-    box-shadow: none;
-    backdrop-filter: blur(0px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+
     overflow: hidden;
   }
 
   .crd {
-    width: 300px;
+    width: 320px;
     height: 400px;
     margin-left: 20px;
 
@@ -1137,27 +1416,6 @@ Responsive
     background-size: contain;
     position: relative;
     overflow: hidden;
-  }
-
-  .crd p {
-    position: absolute;
-    left: 30px;
-    bottom: 60px;
-    color: #ffffff;
-    font-size: 12px;
-  }
-
-  .crd button {
-    position: absolute;
-    left: 30px;
-    bottom: 30px;
-    height: 33px;
-    width: 100px;
-    border-radius: 39.541690826416016px;
-    background-color: black;
-    border: 1px solid;
-    border-color: #ffffff;
-    color: #ffffff;
   }
 
   /* Connect With Us */
