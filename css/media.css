@@ -553,8 +553,8 @@
   .connect-crd-with-bg input {
     margin-top: 5%;
     margin-bottom: 10%;
-    width: 200px;
-    height: 27px;
+    width: 220px;
+    height: 40px;
     font-size: 12px;
     background: #3f4143;
     border-radius: 13.5688px;
@@ -568,6 +568,6 @@
     backdrop-filter: blur(1.43618px);
     /* Note: backdrop-filter has minimal browser support */
 
-    border-radius: 46.6759px;
+    border-radius: 50px;
   }
 }
