@@ -494,7 +494,15 @@
   }
 
   .name-email input {
-    width: 250px;
+    width: 95%;
     height: 40px;
+  }
+
+  .msg-in {
+    width: auto;
+  }
+
+  .msg-in textarea {
+    width: 100%;
   }
 }
