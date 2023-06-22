@@ -236,9 +236,10 @@ Responsive
 }
 
 .whoweare-line {
-  width: 100%;
+ width: 25%;
   height: 2px;
   background-color: #00a5c9;
+  margin-right: 20px;
 }
 
 .whoweare-text h4 {
