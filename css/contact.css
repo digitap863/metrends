@@ -314,7 +314,7 @@
   }
 }
 
-@media only screen and (max-width: 413px) {
+@media only screen and (max-width: 480px) {
   .navi-logo {
     margin-left: 1.5vh;
   }
@@ -484,6 +484,10 @@
 
   .contact-details-right {
     height: auto;
+    background-color: #00a5c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .right-contents {
     height: auto;
