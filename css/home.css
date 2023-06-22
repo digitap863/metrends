@@ -1073,19 +1073,21 @@ Responsive
   }
 
   .banr-crd {
-    width: 200px;
+    width: 150px;
     height: 150px;
     /* background-color: rgb(105, 72, 21); */
+     padding: 0;
+    margin: 0 15px;
+    overflow: hidden;
 
-    padding: 0;
-    margin: 0 10px;
+   
   }
 
-  /* .banr-crd img {
-    width: 80vw;
-    height: 30vh;
+  .banr-crd img {
+    width: 150px;
+    height: auto;
     opacity: 0.97;
-  } */
+  }
 
   .banr-crd-txt h4 {
     font-family: "Poppins";
@@ -1094,15 +1096,17 @@ Responsive
     font-size: 30px;
     line-height: 45px;
     color: rgba(0, 165, 201, 1);
+    overflow: hidden;
   }
 
   .banr-crd-txt p {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 90%;
     line-height: 23px;
     color: #ffffff;
+    overflow: hidden;
   }
 
   /* Who we are */
