@@ -11,7 +11,7 @@
   width: 100%;
   height: auto;
   background-image: url("../images/business-sector/banner-bag-bg.webp");
-   background-color: black;
+  background-color: black;
 
   background-repeat: no-repeat;
   background-position: center;
@@ -812,25 +812,28 @@
   .retail-col-right {
     width: auto;
     height: auto;
+    /* background-color: #1a5663; */
   }
 
   .retail-text {
     width: auto;
     height: auto;
-    margin-left: 5%;
+    margin-left: 10%;
   }
 
   .retail-line {
     width: 100px;
     height: 2px;
     background-color: #00a5c9;
+    margin-bottom: 0;
   }
 
   .retail-text h4 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
     font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .retail-text h2 {
@@ -838,22 +841,27 @@
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
-    line-height: 58px;
+    line-height: 30px;
     color: #ffffff;
-  }
-
-  .retail-text span {
-    color: rgba(0, 165, 201, 1);
+    margin-bottom: 10px;
   }
 
   .retail-text p {
     width: 315px;
     font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 85%;
   }
 
   /* wholesale */
+
+  .wholesale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   .wholesale-content-right {
     height: auto;
@@ -866,18 +874,6 @@
   .wholesale-content-left {
     height: auto;
     width: auto;
-  }
-
-  .wholesale-text p {
-    max-width: 474px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17.7119px;
-    line-height: 31px;
-    /* or 175% */
-
-    color: #a4b4c3;
   }
 
   .wholesale-text {
@@ -895,6 +891,10 @@
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .wholesale-text h2 {
@@ -906,19 +906,17 @@
     color: #ffffff;
   }
 
-  .wholesale-text span {
-    color: rgba(0, 165, 201, 1);
-  }
-
   .wholesale-text p {
     width: 315px;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 20px;
+    max-width: 85%;
   }
 
   .wholesale-content-right {
     margin-top: 0;
+    /* background-color: #00a5c9; */
   }
 
   /* wholesale */
@@ -926,7 +924,7 @@
   .ecommerce-content-right {
     height: auto;
     width: auto;
-    /* background-color: #00a5c9; */
+
     display: flex;
     align-items: center;
   }
@@ -963,6 +961,10 @@
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .ecommerce-text h2 {
@@ -981,11 +983,12 @@
   .ecommerce-text p {
     width: 315px;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 20px;
   }
 
   /* Brands */
+
   .brands-text h4 {
     font-size: 1rem;
   }
@@ -993,6 +996,10 @@
   .brands-text h2 {
     font-size: 2.5rem;
     line-height: 40px;
+  }
+
+  .brands-crds {
+    margin-top: 50px;
   }
 
   .brands-crds .crd-hides {
@@ -1027,8 +1034,8 @@
   .connect-crd-with-bg input {
     margin-top: 5%;
     margin-bottom: 10%;
-    width: 200px;
-    height: 27px;
+    width: 220px;
+    height: 40px;
     font-size: 12px;
     background: #3f4143;
     border-radius: 13.5688px;
@@ -1036,12 +1043,12 @@
 
   .connect-crd-with-bg button {
     width: 130px;
-    height: 30px;
+    height: 35px;
     font-size: 12px;
     background: #00a5c9;
     backdrop-filter: blur(1.43618px);
     /* Note: backdrop-filter has minimal browser support */
 
-    border-radius: 46.6759px;
+    border-radius: 50px;
   }
 }
