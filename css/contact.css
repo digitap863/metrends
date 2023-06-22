@@ -492,6 +492,10 @@
   .right-contents {
     height: auto;
   }
+  .right-contents form {
+  
+  margin-left: 15px;
+}
 
   .name-email input {
     width: 95%;
