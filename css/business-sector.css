@@ -1,0 +1,1426 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+}
+
+/* Home Banner */
+
+.home-banner {
+  width: 100%;
+  height: auto;
+  background-image: url("../images/business-sector/banner-bag-bg.webp");
+  background-color: black;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.heading h2 {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding-top: 10%;
+
+  color: transparent;
+
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.banner-text h3 {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-top: -50px;
+}
+
+.abt-txt h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 140px;
+  line-height: 86%;
+  /* identical to box height, or 86% */
+  padding-top: 3%;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* Banner Cards */
+
+.banner-card {
+  width: 100%;
+  height: 300px;
+  /* background-color: bisque; */
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.banr-crd {
+  width: 300px;
+  height: 300px;
+  /* background-color: #00a5c9; */
+  padding: 0;
+  margin: 0 25px;
+}
+
+.banr-crd img {
+  width: 262px;
+  height: 262px;
+  opacity: 0.97;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banr-crd-txt h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50.3855px;
+  line-height: 76px;
+  color: rgba(0, 165, 201, 1);
+}
+
+.banr-crd-txt p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.1928px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+/* Ribbon */
+
+.ribbon {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ribbon img {
+  width: 200px;
+  height: 38px;
+}
+
+/* Retail Starts */
+
+.retail {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/corporate/whoweare-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.retail-row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  /* background-color: #0c3842; */
+}
+.retail-col-left {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  /* background-color: rgb(104, 104, 119); */
+}
+
+.retail-images {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* background-color: blue; */
+  /* margin-bottom: 30px; */
+}
+
+.retail-images img {
+  width: auto;
+  height: auto;
+}
+
+.retail-col-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /* background-color: #3f4143; */
+}
+
+.retail-text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-left: 3vw;
+  padding-right: 3vw;
+
+  /* background-color: #00a5c9; */
+}
+.retail-top-linetext {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-bottom: 5%;
+}
+
+.retail-top-linetext img {
+  width: 25%;
+  height: 2px;
+  background-color: #00a5c9;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.retail-text h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25vw;
+  letter-spacing: 0.09em;
+
+  color: #ffffff;
+}
+
+.retail-text h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.2vw;
+  line-height: 7vh;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.retail-text span {
+  color: rgba(0, 165, 201, 1);
+}
+
+.retail-text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 4vh;
+
+  color: #a4b4c3;
+  margin-top: 20px;
+}
+
+/* E-Commerce */
+
+.ecommerce {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/corporate/whoweare-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.ecommerce-row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  /* background-color: #0c3842; */
+}
+.ecommerce-col-left {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  /* background-color: rgb(104, 104, 119); */
+}
+
+.ecommerce-images {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* background-color: blue; */
+  /* margin-bottom: 30px; */
+}
+
+.ecommerce-images img {
+  width: auto;
+  height: auto;
+}
+
+.ecommerce-col-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /* background-color: #3f4143; */
+}
+
+.ecommerce-text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-left: 3vw;
+  padding-right: 7vw;
+
+  /* background-color: #00a5c9; */
+}
+.ecommerce-top-linetext {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-bottom: 5%;
+}
+
+.ecommerce-top-linetext img {
+  width: 25%;
+  height: 2px;
+  background-color: #00a5c9;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.ecommerce-text h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25vw;
+  letter-spacing: 0.09em;
+
+  color: #ffffff;
+}
+
+.ecommerce-text h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.2vw;
+  line-height: 7vh;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.ecommerce-text span {
+  color: rgba(0, 165, 201, 1);
+}
+
+.ecommerce-text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 4vh;
+  color: #a4b4c3;
+  margin-top: 20px;
+}
+
+/* Our Wholesale Starts */
+
+.wholesale {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/corporate/whoweare-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.wholesale-row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.wholesale-col-left {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.wholesale-images {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.wholesale-images img {
+  width: auto;
+  height: auto;
+}
+
+.wholesale-col-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.wholesale-text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  margin-left: 8vw;
+  padding-right: 2vw;
+
+  /* background-color: #00a5c9; */
+}
+.wholesale-top-linetext {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-bottom: 5%;
+}
+
+.wholesale-top-linetext img {
+  width: 25%;
+  height: 2px;
+  background-color: #00a5c9;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.wholesale-text h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25vw;
+  letter-spacing: 0.09em;
+
+  color: #ffffff;
+}
+
+.wholesale-text h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.2vw;
+  line-height: 7vh;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.wholesale-text span {
+  color: rgba(0, 165, 201, 1);
+}
+
+.wholesale-text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 4vh;
+  color: #a4b4c3;
+  margin-top: 20px;
+}
+
+/* Brands */
+
+.brands-contents {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  background-image: url("../images/why-chose-us/whychoseus-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.brands-text {
+  text-align: center;
+  margin-top: 6vh;
+  /* background-color: #00a5c9; */
+}
+
+.brands-top-linetext {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+.brands-top-linetext img {
+  width: 25%;
+  height: 2px;
+  background-color: #00a5c9;
+
+  margin-top: 10px;
+}
+
+.brands-text h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25vw;
+  letter-spacing: 0.09em;
+
+  color: #ffffff;
+}
+
+.brands-text h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.2vw;
+  line-height: 7vh;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.brands-text span {
+  color: rgba(0, 165, 201, 1);
+}
+
+.brands-crds {
+  width: 100%;
+  height: auto;
+  /* background-color: #a4b4c3; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+.brands-crd {
+  width: 308px;
+  height: 355px;
+  background-color: black;
+  background-image: url("../images/corporate/whychoseus-crd-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.brands-crd-content {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brands-crd-content img {
+  width: 100%;
+  height: auto;
+  /* margin-bottom: 20px; */
+}
+
+.brands-slidenav {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 3vh;
+  padding-top: 0;
+}
+
+.brands-slidebtns {
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5%;
+}
+
+.brands-left-arrow {
+  width: 5vw;
+  height: 5vw;
+  margin-right: 10px;
+  background-color: black;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.brands-left-arrow:hover {
+  background-color: #00a5c9;
+  opacity: 0.8;
+  border: none;
+  color: black;
+}
+
+.brands-right-arrow {
+  width: 5vw;
+  height: 5vw;
+  background-color: black;
+  margin: 5px;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.brands-right-arrow:hover {
+  background-color: #00a5c9;
+  opacity: 0.8;
+  border: none;
+  color: black;
+}
+
+/* Slider */
+.slide-container {
+  /* background-color: #085263; */
+  max-width: 1300px;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.slide-content {
+  padding: 0 15px;
+
+  margin: 0 auto;
+}
+
+.card_slider {
+  width: 100%;
+  /* background-color: #3f4143; */
+  display: flex;
+  align-items: center;
+}
+
+.swiper-wrapper {
+  /* background-color: #c90057; */
+  display: flex;
+  align-items: center;
+  /* padding-left: 0.8vw; */
+}
+
+.swiper-slide {
+  overflow: hidden;
+}
+
+.swiper-slide .singleCard {
+  height: 300px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent !important;
+  /* border: 1px solid rgba(255, 255, 255, 0.392);
+  border-radius: 10px; */
+  opacity: 0.7;
+  background-image: url("../images/why-chose-us/whychoseus-crd-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 30px;
+
+  overflow: hidden;
+}
+
+.brands_single_card img {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  /* width: 4vw;
+  height: 4vw;
+  margin-top: 2vw; */
+}
+
+/* Connect With us */
+
+.connect {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/our-showrooms/showrooms-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.connect-crd-with-bg {
+  width: 80%;
+  height: auto;
+
+  background-image: url("../images/connect/connect-crd-bg-1440.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.8;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-crd-with-bg img {
+  margin-bottom: 5%;
+  margin-top: 7%;
+}
+
+.connect-crd-with-bg h2 {
+  margin-bottom: 3%;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.4vw;
+  line-height: 56px;
+  /* identical to box height, or 112% */
+  color: #ffffff;
+}
+
+.connect-crd-with-bg span {
+  color: #00a5c9;
+}
+
+.connect-crd-with-bg p {
+  margin-bottom: 2%;
+  text-align: center;
+
+  max-width: 820px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 4vh;
+  color: #ffffff;
+}
+
+.connect-crd-with-bg form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6%;
+}
+
+.connect-crd-with-bg input {
+  margin-bottom: 10%;
+
+  width: 326px;
+  height: 48px;
+  background: #3f4143;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+.connect-crd-with-bg input:hover {
+  background-color: #5f6062;
+  border: none;
+}
+
+.connect-crd-with-bg button {
+  width: 15vw;
+  height: auto;
+  padding: 10px 0;
+  background: transparent;
+  border: 1px solid #00a5c9;
+  color: #ffffff;
+
+  margin-bottom: 10%;
+  border-radius: 15px;
+}
+
+.connect-crd-with-bg button:hover {
+  background-color: #00a5c9;
+  border: 1px solid #00a5c9;
+  color: black;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1132px) {
+  .navbar ul li a {
+    font-size: 1.6vh;
+  }
+
+  .navbar ul li {
+    padding: 0 20px;
+  }
+
+  .social img {
+    padding: 3px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .social {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hideme {
+    display: none;
+  }
+
+  .navi-logo {
+    margin-left: 1.5vh;
+  }
+
+  .heading h2 {
+    font-size: 40px;
+    margin: 0 1px;
+  }
+
+  .banner-text h3 {
+    font-size: 40px;
+    margin-top: -30px;
+  }
+
+  /* Banner Area */
+
+  .home-banner {
+    background-image: url("../images/business-sector/business-sector-banner-bg-mobile.webp");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+  .banner-text {
+    margin-top: 80px;
+  }
+
+  .abt-txt h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 53px;
+    /* or 97% */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  /* Banner Cards */
+
+  .banner-card {
+    width: 100%;
+    height: 100%;
+    /* background-color: bisque; */
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .banr-crd {
+    width: 120px;
+    height: 120px;
+
+    padding: 0;
+    margin: 0 15px;
+  }
+
+  .banr-crd img {
+    width: 120px;
+    height: 120px;
+    opacity: 0.97;
+  }
+
+  .banr-crd-txt h4 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: rgba(0, 165, 201, 1);
+  }
+
+  .banr-crd-txt p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+
+  /* Ribbon  */
+
+  .ribbon {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .ribbon img {
+    width: 200px;
+    height: auto;
+    margin: 7px;
+    overflow-x: hidden;
+  }
+
+  /* Retail */
+
+  .retail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/corporate/whoweare-bg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    overflow-x: hidden;
+  }
+
+  .retail-row {
+    width: auto;
+    height: 100%;
+  }
+
+  .retail-col-left {
+    height: 100vw;
+    width: 360px;
+    /* background-color: #00a5c9; */
+    overflow: hidden;
+  }
+
+  .retail-images {
+    height: 95%;
+    width: 95%;
+    /* background-color: blue; */
+    margin: 30px 10px 0px 10px;
+    overflow: hidden;
+  }
+
+  .retail-col-right {
+    width: 100%;
+    height: auto;
+    /* background-color: #3f4143; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .retail-text {
+    width: auto;
+    height: auto;
+    margin: 30px 10px 0px 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    overflow-x: hidden;
+  }
+
+  .retail-top-linetext {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    margin-bottom: 5%;
+  }
+
+  .retail-top-linetext img {
+    width: 25%;
+    height: 2px;
+    background-color: #00a5c9;
+    margin-right: 20px;
+    margin-top: 7px;
+  }
+
+  .retail-text h4 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    letter-spacing: 0.09em;
+
+    color: #ffffff;
+  }
+
+  .retail-text h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 7vw;
+    line-height: 9vw;
+    overflow-x: hidden;
+  }
+
+  .retail-text p {
+    font-family: "Montserrat", sans-serif;
+    max-width: 315px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 40px;
+  }
+
+  /* wholesale */
+
+  .wholesale {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/corporate/whoweare-bg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    overflow-x: hidden;
+  }
+
+  .wholesale-row {
+    width: auto;
+    height: 100%;
+  }
+
+  .wholesale-col-left {
+    height: 100vw;
+    width: 360px;
+    /* background-color: #00a5c9; */
+    overflow: hidden;
+  }
+
+  .wholesale-images {
+    height: 95%;
+    width: 95%;
+    /* background-color: blue; */
+    margin: 30px 10px 0px 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+
+  .wholesale-col-right {
+    width: 100%;
+    height: auto;
+    /* background-color: #3f4143; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .wholesale-text {
+    width: auto;
+    height: auto;
+
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 30px;
+    overflow-x: hidden;
+  }
+
+  .wholesale-top-linetext {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    margin-bottom: 5%;
+  }
+
+  .wholesale-top-linetext img {
+    width: 25%;
+    height: 2px;
+    background-color: #00a5c9;
+    margin-right: 20px;
+    margin-top: 7px;
+  }
+
+  .wholesale-text h4 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    letter-spacing: 0.09em;
+
+    color: #ffffff;
+  }
+
+  .wholesale-text h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 7vw;
+    line-height: 9vw;
+    overflow-x: hidden;
+  }
+
+  .wholesale-text p {
+    font-family: "Montserrat", sans-serif;
+    max-width: 315px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 40px;
+  }
+
+  /* ecommerce */
+
+  .ecommerce {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/corporate/whoweare-bg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    overflow-x: hidden;
+  }
+
+  .ecommerce-row {
+    width: auto;
+    height: 100%;
+  }
+
+  .ecommerce-col-left {
+    height: 100vw;
+    width: 360px;
+    /* background-color: #00a5c9; */
+    overflow: hidden;
+  }
+
+  .ecommerce-images {
+    height: 95%;
+    width: 95%;
+    /* background-color: blue; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    overflow: hidden;
+  }
+
+  .ecommerce-col-right {
+    width: 100%;
+    height: auto;
+    /* background-color: #3f4143; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .ecommerce-text {
+    width: auto;
+    height: auto;
+
+    padding-bottom: 0;
+    padding-top: 0;
+    overflow-x: hidden;
+  }
+
+  .ecommerce-top-linetext {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    margin-bottom: 5%;
+  }
+
+  .ecommerce-top-linetext img {
+    width: 25%;
+    height: 2px;
+    background-color: #00a5c9;
+    margin-right: 20px;
+    margin-top: 7px;
+  }
+
+  .ecommerce-text h4 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw;
+    letter-spacing: 0.09em;
+
+    color: #ffffff;
+  }
+
+  .ecommerce-text h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 7vw;
+    line-height: 9vw;
+    overflow-x: hidden;
+  }
+
+  .ecommerce-text p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    max-width: 315px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 40px;
+  }
+
+  /* Brands */
+
+  .brands-contents {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brands-text {
+    width: auto;
+    height: auto;
+    margin: 30px 10px 0px 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    overflow-x: hidden;
+  }
+
+  .brands-top-linetext {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    margin-bottom: 5%;
+  }
+  .brands-line {
+    width: 25%;
+    height: 2px;
+    background-color: #00a5c9;
+    margin-right: 20px;
+    margin-top: 7px;
+  }
+  .brands-text h4 {
+    font-size: 11px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 0px;
+    margin-top: 0;
+    overflow: hidden;
+    line-height: 10px;
+    text-align: left;
+  }
+
+  .brands-text h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 7vw;
+    line-height: 9vw;
+    overflow-x: hidden;
+    text-align: left;
+  }
+
+  .brands-crds .crd-hides {
+    display: none;
+  }
+
+  .brands-crds {
+    margin-top: 4vh;
+  }
+
+  .brands-crd {
+    width: 70vw;
+    height: 80vw;
+  }
+
+  .brands-card .iconss {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    height: 24%;
+    width: 25%;
+  }
+
+  .brands-crds {
+    margin-top: 3vh;
+  }
+
+  .brands-card img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+  }
+
+  .brands-card h3 {
+    width: 243.28px;
+    height: 56px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #ffffff;
+    font-size: 6vw;
+  }
+
+  .brands-card p {
+    width: 227px;
+    height: 44px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 22px;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+  .brands-slidenav {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2vh;
+    margin-top: 10px;
+  }
+
+  .brands-left-arrow {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 20px;
+  }
+
+  .brands-right-arrow {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  /* Connect With Us */
+
+  .connect-crd-with-bg {
+    background-image: none;
+  }
+
+  .connect-crd-with-bg h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #00a5c9;
+  }
+  .connect-crd-with-bg p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .connect-crd-with-bg input {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 220px;
+    height: 40px;
+    font-size: 12px;
+    background: #3f4143;
+    border-radius: 13.5688px;
+  }
+
+  .connect-crd-with-bg button {
+    width: 130px;
+    height: 35px;
+    font-size: 12px;
+    background: transparent;
+    border: 1px solid #00a5c9;
+    color: #ffffff;
+  }
+}
