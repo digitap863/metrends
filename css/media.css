@@ -572,6 +572,16 @@
     overflow: hidden;
   }
 
+   /* Gallery */
+
+  .filtr-tabs ul li {
+    width: 60px;
+    height: auto;
+    text-decoration: none;
+    margin: 5px 7px 5px 7px;
+    font-size: 12px;
+  }
+
   /* Connect With Us */
 
   .connect-crd-with-bg {
