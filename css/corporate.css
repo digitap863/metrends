@@ -1030,6 +1030,14 @@
   color: black;
 }
 
+.awards-left-arrow i {
+  color: #00a5c9;
+}
+
+.awards-right-arrow i {
+  color: #00a5c9;
+}
+
 .swiper-slide .awards_single_card {
   height: 300px;
   width: 270px;
