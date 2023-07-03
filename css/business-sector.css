@@ -654,6 +654,14 @@
   color: black;
 }
 
+.brands-right-arrow {
+  color: #00a5c9;
+}
+
+.brands-left-arrow {
+  color: #00a5c9;
+}
+
 /* Slider */
 .slide-container {
   /* background-color: #085263; */
