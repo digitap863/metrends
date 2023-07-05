@@ -10,12 +10,12 @@
 .home-banner {
   width: 100%;
   height: auto;
-  background-image: url("../images/business-sector/banner-bag-bg.webp");
+  background-image: url("../images/business-sector/business-banner-bg-big.webp");
   background-color: black;
 
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .heading h2 {
@@ -886,6 +886,7 @@
 
   .banner-text {
     margin-top: 80px;
+    margin-bottom: 80px;
   }
 
   .abt-txt h2 {

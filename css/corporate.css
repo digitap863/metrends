@@ -11,10 +11,11 @@
   width: 100%;
   height: auto;
   background-image: url("../images/corporate/banner/banner-bg-corporate.webp");
-  background-color: rgb(231, 190, 190);
+  /* background-color: rgb(231, 190, 190);*/
+  background-color: black;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   overflow: hidden;
 }
 
@@ -1299,7 +1300,7 @@
   .home-banner {
     width: 100%;
     height: auto;
-    background-image: url("../images/corporate/corporate-banner-bg-mobile.webp");
+  /*  background-image: url("../images/corporate/corporate-banner-bg-mobile.webp");*/
 
     background-color: black;
     background-repeat: no-repeat;
@@ -1309,8 +1310,9 @@
   }
 
   .banner-text {
-    margin-top: 80px;
+    margin-top: 90px;
     overflow: hidden;
+    margin-bottom: 90px;
   }
 
   .abt-txt h2 {

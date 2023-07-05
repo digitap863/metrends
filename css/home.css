@@ -441,6 +441,13 @@ Responsive
   color: black;
 }
 
+.whychoseus-right-arrow:hover i {
+  color: black;
+}
+.whychoseus-left-arrow:hover i {
+  color: black;
+}
+
 .whychoseus-right-arrow i {
   color: #00a5c9;
 }

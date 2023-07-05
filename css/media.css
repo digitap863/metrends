@@ -14,7 +14,7 @@
   background-color: black;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .heading h2 {
@@ -475,7 +475,7 @@
 
   .banner-text h3 {
     font-size: 40px;
-    margin-top: -30px;
+    margin-top: -20px; /* change here for banner padding,margin */
   }
 
   /* Banner Area */
@@ -492,7 +492,8 @@
   }
 
   .banner-text {
-    margin-top: 80px;
+    margin-top: 90px;
+    margin-bottom: 80px;
   }
 
   .abt-txt h2 {
