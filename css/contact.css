@@ -574,13 +574,13 @@
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     overflow-x: hidden;
   }
 
   .banner-text {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 110px;
+    margin-bottom: 90px;
   }
 
   .abt-txt h2 {
@@ -588,9 +588,10 @@
     font-style: normal;
     font-weight: 900;
     font-size: 68px;
-    line-height: 53px;
+    line-height: 65px;
     /* or 97% */
-
+    padding-top: 75px; /* padding change*/
+    padding-bottom: 45px; /* padding change*/
     text-align: center;
 
     color: #ffffff;

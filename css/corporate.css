@@ -1320,11 +1320,12 @@
     font-style: normal;
     font-weight: 900;
     font-size: 68px;
-    line-height: 53px;
+    line-height: 65px;
     /* or 97% */
-
+    
+    padding-top: 75px; /* padding change*/
+    padding-bottom: 45px; /* padding change*/
     text-align: center;
-
     color: #ffffff;
   }
 

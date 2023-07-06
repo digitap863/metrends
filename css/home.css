@@ -31,7 +31,7 @@ Responsive
   font-size: 100px;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  padding-top: 116px; 
+  padding-top: 106px; 
   color: transparent;
 
   -webkit-text-stroke: 1px;
@@ -1159,8 +1159,8 @@ Responsive
     width: 100%;
     height: auto;
     /* background-color: bisque; */
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 42px; /* margin change */
+    margin-bottom: 42px;
     overflow: hidden;
   }
 
